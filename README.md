@@ -1,6 +1,6 @@
 # ARPoC
 
-## Repository for the Services technologies et multimedia 2019 course.
+## Repository for the Services et technologies multimedia 2019 course.
 ### Sofia and Xoeseko's AR proof of concept
 
 Our aim is to demonstrate that it would be possible to learn skills through augmented or virtual reality.
