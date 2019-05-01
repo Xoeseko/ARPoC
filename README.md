@@ -9,7 +9,7 @@ Our aim is to demonstrate that it would be possible to learn skills through augm
 - [x] Using motion capture to get an animation of a skill we want to transmit. (Tai-chi for the proof of concept)
 - [x] Rigging a character to follow the motion capture animation
 - [x] Importing the animation into unity in order to develop the AR or VR application.
-- [ ] Having a working prototype
+- [x] Having a working prototype
 - [ ] Testing within our close circles what people think of the concept
 - [ ] Making a presentative video for the project
 
@@ -17,6 +17,7 @@ Our aim is to demonstrate that it would be possible to learn skills through augm
 We aim as much as possible to make use of open access software and assets.
  - The motion capture comes from the Carnegie Mellon university [motion capture library](http://mocap.cs.cmu.edu).
  - Royalty Free Music: All The Tea In China by Shane Ivers - https://www.silvermansound.com
+ - Royalty Free Music: Action and Adventure by Shane Ivers - https://www.silvermansound.com
 
 #### Tools:
 - Unity
