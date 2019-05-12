@@ -50,9 +50,13 @@ public class ARTapToPlaceObject : MonoBehaviour
 
     private void PlaceObject()
     {
+        //var screenCenter = Camera.current.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
+        //var hits = new List<ARRaycastHit>();
+        //arOrigin.Raycast(screenCenter, hits, TrackableType.Planes);
+        //Switches active animation from first to second and places it at the center of the play area
         if(SecondAnimation.activeInHierarchy)
         {
-            StartCoroutine(textForTime(boxingText));
+            StartCoroutine(textForTime(taichiText));
             SecondAnimation.SetActive(false);
             FirstAnimation.SetActive(true);
             FirstAnimation.transform.SetPositionAndRotation(placementPose.position, placementPose.rotation);

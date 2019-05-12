@@ -78,40 +78,6 @@ ModelImporter:
     100144: VICON:thorax
     100146: VICON:upperback
     100148: VICON:upperneck
-    100150: dummy1:dummy_belly
-    100152: dummy1:dummy_headq
-    100154: dummy1:dummy_hips3
-    100156: dummy1:dummy_lankle
-    100158: dummy1:dummy_larm
-    100160: dummy1:dummy_lelbow
-    100162: dummy1:dummy_lfarm
-    100164: dummy1:dummy_lfoot
-    100166: dummy1:dummy_lhand
-    100168: dummy1:dummy_lknee
-    100170: dummy1:dummy_lleg
-    100172: dummy1:dummy_lpelvis
-    100174: dummy1:dummy_lshoulder
-    100176: dummy1:dummy_lupleg
-    100178: dummy1:dummy_lwrist
-    100180: dummy1:dummy_neck
-    100182: dummy1:dummy_rankle
-    100184: dummy1:dummy_rarm
-    100186: dummy1:dummy_relbow
-    100188: dummy1:dummy_rfarm
-    100190: dummy1:dummy_rfoot
-    100192: dummy1:dummy_rhand
-    100194: dummy1:dummy_rknee
-    100196: dummy1:dummy_rleg
-    100198: dummy1:dummy_rpelvis
-    100200: dummy1:dummy_rshoulder
-    100202: dummy1:dummy_rupleg
-    100204: dummy1:dummy_rwrist
-    100206: dummy1:dummy_torso
-    100208: dummy1:lights:xtralight
-    100210: dummy1:lights:xtralight1
-    100212: dummy1:lights:xtralight2
-    100214: dummy1:lights:xtralights
-    100216: dummy1:pPlane1
     400000: dummy:dummy_belly
     400002: dummy:dummy_headq
     400004: dummy:dummy_hips3
@@ -187,48 +153,11 @@ ModelImporter:
     400144: VICON:thorax
     400146: VICON:upperback
     400148: VICON:upperneck
-    400150: dummy1:dummy_belly
-    400152: dummy1:dummy_headq
-    400154: dummy1:dummy_hips3
-    400156: dummy1:dummy_lankle
-    400158: dummy1:dummy_larm
-    400160: dummy1:dummy_lelbow
-    400162: dummy1:dummy_lfarm
-    400164: dummy1:dummy_lfoot
-    400166: dummy1:dummy_lhand
-    400168: dummy1:dummy_lknee
-    400170: dummy1:dummy_lleg
-    400172: dummy1:dummy_lpelvis
-    400174: dummy1:dummy_lshoulder
-    400176: dummy1:dummy_lupleg
-    400178: dummy1:dummy_lwrist
-    400180: dummy1:dummy_neck
-    400182: dummy1:dummy_rankle
-    400184: dummy1:dummy_rarm
-    400186: dummy1:dummy_relbow
-    400188: dummy1:dummy_rfarm
-    400190: dummy1:dummy_rfoot
-    400192: dummy1:dummy_rhand
-    400194: dummy1:dummy_rknee
-    400196: dummy1:dummy_rleg
-    400198: dummy1:dummy_rpelvis
-    400200: dummy1:dummy_rshoulder
-    400202: dummy1:dummy_rupleg
-    400204: dummy1:dummy_rwrist
-    400206: dummy1:dummy_torso
-    400208: dummy1:lights:xtralight
-    400210: dummy1:lights:xtralight1
-    400212: dummy1:lights:xtralight2
-    400214: dummy1:lights:xtralights
-    400216: dummy1:pPlane1
     2000000: side1
     2100000: dummy_wood
     2100002: lambert1
-    2100004: dummy1_wood
     2300000: dummy:pPlane1
-    2300002: dummy1:pPlane1
     3300000: dummy:pPlane1
-    3300002: dummy1:pPlane1
     4300000: dummy:dummy_hips3
     4300002: dummy:dummy_belly
     4300004: dummy:dummy_torso
@@ -259,44 +188,11 @@ ModelImporter:
     4300054: dummy:dummy_lankle
     4300056: dummy:dummy_lfoot
     4300058: dummy:pPlane1
-    4300060: dummy1:dummy_hips3
-    4300062: dummy1:dummy_belly
-    4300064: dummy1:dummy_torso
-    4300066: dummy1:dummy_rshoulder
-    4300068: dummy1:dummy_rarm
-    4300070: dummy1:dummy_relbow
-    4300072: dummy1:dummy_rfarm
-    4300074: dummy1:dummy_rwrist
-    4300076: dummy1:dummy_rhand
-    4300078: dummy1:dummy_lshoulder
-    4300080: dummy1:dummy_larm
-    4300082: dummy1:dummy_lelbow
-    4300084: dummy1:dummy_lfarm
-    4300086: dummy1:dummy_lwrist
-    4300088: dummy1:dummy_lhand
-    4300090: dummy1:dummy_neck
-    4300092: dummy1:dummy_headq
-    4300094: dummy1:dummy_rpelvis
-    4300096: dummy1:dummy_rupleg
-    4300098: dummy1:dummy_rknee
-    4300100: dummy1:dummy_rleg
-    4300102: dummy1:dummy_rankle
-    4300104: dummy1:dummy_rfoot
-    4300106: dummy1:dummy_lpelvis
-    4300108: dummy1:dummy_lupleg
-    4300110: dummy1:dummy_lknee
-    4300112: dummy1:dummy_lleg
-    4300114: dummy1:dummy_lankle
-    4300116: dummy1:dummy_lfoot
-    4300118: dummy1:pPlane1
     7400000: Take 001
     9500000: //RootNode
     10800000: dummy:lights:xtralight
     10800002: dummy:lights:xtralight1
     10800004: dummy:lights:xtralight2
-    10800006: dummy1:lights:xtralight
-    10800008: dummy1:lights:xtralight1
-    10800010: dummy1:lights:xtralight2
     13700000: dummy:dummy_belly
     13700002: dummy:dummy_headq
     13700004: dummy:dummy_hips3
@@ -326,35 +222,6 @@ ModelImporter:
     13700052: dummy:dummy_rupleg
     13700054: dummy:dummy_rwrist
     13700056: dummy:dummy_torso
-    13700058: dummy1:dummy_belly
-    13700060: dummy1:dummy_headq
-    13700062: dummy1:dummy_hips3
-    13700064: dummy1:dummy_lankle
-    13700066: dummy1:dummy_larm
-    13700068: dummy1:dummy_lelbow
-    13700070: dummy1:dummy_lfarm
-    13700072: dummy1:dummy_lfoot
-    13700074: dummy1:dummy_lhand
-    13700076: dummy1:dummy_lknee
-    13700078: dummy1:dummy_lleg
-    13700080: dummy1:dummy_lpelvis
-    13700082: dummy1:dummy_lshoulder
-    13700084: dummy1:dummy_lupleg
-    13700086: dummy1:dummy_lwrist
-    13700088: dummy1:dummy_neck
-    13700090: dummy1:dummy_rankle
-    13700092: dummy1:dummy_rarm
-    13700094: dummy1:dummy_relbow
-    13700096: dummy1:dummy_rfarm
-    13700098: dummy1:dummy_rfoot
-    13700100: dummy1:dummy_rhand
-    13700102: dummy1:dummy_rknee
-    13700104: dummy1:dummy_rleg
-    13700106: dummy1:dummy_rpelvis
-    13700108: dummy1:dummy_rshoulder
-    13700110: dummy1:dummy_rupleg
-    13700112: dummy1:dummy_rwrist
-    13700114: dummy1:dummy_torso
   externalObjects: {}
   materials:
     importMaterials: 1
