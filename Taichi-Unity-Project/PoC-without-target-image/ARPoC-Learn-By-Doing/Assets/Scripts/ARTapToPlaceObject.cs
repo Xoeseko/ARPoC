@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.XR.ARFoundation;
+// using UnityEngine.XR.ARFoundation;
 using UnityEngine.Experimental.XR;
 
 public class ARTapToPlaceObject : MonoBehaviour
 {
     public GameObject placementIndicator;
-    private ARSessionOrigin arOrigin;
+    // private ARSessionOrigin arOrigin;
     private Pose placementPose;
     private bool placementPoseIsValid = false;
     private bool playAreaSet = false;
@@ -23,7 +23,7 @@ public class ARTapToPlaceObject : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        arOrigin = FindObjectOfType<ARSessionOrigin>();
+        //arOrigin = FindObjectOfType<ARSessionOrigin>();
     }
 
     // Update is called once per frame
@@ -89,20 +89,19 @@ public class ARTapToPlaceObject : MonoBehaviour
     private void UpdatePlacementPose()
     {
         var screenCenter = Camera.current.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
-        var hits = new List<ARRaycastHit>();
-        arOrigin.Raycast(screenCenter, hits, TrackableType.Planes);
+        //var hits = new List<ARRaycastHit>();
+        //arOrigin.Raycast(screenCenter, hits, TrackableType.Planes);
 
-        placementPoseIsValid = hits.Count > 0;
-        if(placementPoseIsValid)
-        {
+        //placementPoseIsValid = hits.Count > 0;
+        //if(placementPoseIsValid)
+        //{
+        //    placementPose = hits[0].pose;
 
-            placementPose = hits[0].pose;
-
-            var cameraForward = Camera.current.transform.forward;
-            //Using normalized vector because camera
-            var cameraBearing = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
-            placementPose.rotation = Quaternion.LookRotation(cameraBearing);
-        }
+        //    var cameraForward = Camera.current.transform.forward;
+        //    //Using normalized vector because camera
+        //    var cameraBearing = new Vector3(cameraForward.x, 0, cameraForward.z).normalized;
+        //    placementPose.rotation = Quaternion.LookRotation(cameraBearing);
+        //}
 
     }
 
@@ -117,16 +116,16 @@ public class ARTapToPlaceObject : MonoBehaviour
     private void checkAlwaysAPlane()
     {
         var screenCenter = Camera.current.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
-        var hits = new List<ARRaycastHit>();
-        arOrigin.Raycast(screenCenter, hits, TrackableType.Planes);
+        //var hits = new List<ARRaycastHit>();
+        //arOrigin.Raycast(screenCenter, hits, TrackableType.Planes);
 
-        if(hits.Count < 1)
-        {
-            warningMessage.SetActive(true);
-        }
-        else
-        {
-            warningMessage.SetActive(false);
-        }
+        //if(hits.Count < 1)
+        //{
+        //    warningMessage.SetActive(true);
+        //}
+        //else
+        //{
+        //    warningMessage.SetActive(false);
+        //}
     }
 }
